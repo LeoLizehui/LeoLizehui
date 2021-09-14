@@ -54,7 +54,7 @@
 
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
-    var CONFIG = {"hostname":"leoblog.top","root":"/","version":"1.8.11","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null}},"search_path":"/local-search.xml"};
+    var CONFIG = {"hostname":"leoblog.top","root":"/","version":"1.8.11","typing":{"enable":true,"typeSpeed":150,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null}},"search_path":"/local-search.xml"};
   </script>
   <script  src="/js/utils.js" ></script>
   <script  src="/js/color-schema.js" ></script>
@@ -66,7 +66,7 @@
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand"
-       href="/">&nbsp;<strong>Fluid</strong>&nbsp;</a>
+       href="/">&nbsp;<strong>Leo的书店</strong>&nbsp;</a>
 
     <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
             data-target="#navbarSupportedContent"
@@ -138,6 +138,18 @@
             </li>
           
         
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/links/">
+                <i class="iconfont icon-link-fill"></i>
+                友链
+              </a>
+            </li>
+          
+        
         
           <li class="nav-item" id="search-btn">
             <a class="nav-link" target="_self" data-toggle="modal" data-target="#modalSearch">&nbsp;<i
@@ -156,7 +168,7 @@
 </nav>
 
     <div class="banner" id="banner" parallax=true
-         style="background: url('/img/default.png') no-repeat center center;
+         style="background: url('/image/About%20page.jpg') no-repeat center center;
            background-size: cover;">
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
@@ -181,7 +193,7 @@
           >
           
             <div class="about-avatar">
-              <img src="/img/avatar.png" srcset="/img/loading.gif" lazyload
+              <img src="/image/Avatar.jpg" srcset="/img/loading.gif" lazyload
                    class="img-fluid" alt="avatar">
             </div>
           
@@ -192,31 +204,19 @@
 
 <div class="text-center">
   <div class="about-info">
-    <div class="about-name">Fluid</div>
-    <div class="about-intro">An elegant theme for Hexo</div>
+    <div class="about-name">Leo Li</div>
+    <div class="about-intro">Lovely Special Person</div>
     <div class="about-icons">
       
         
         
         
-        <a href=https://github.com class="
+        <a href=https://weibo.com/u/7400784871 class="
            hint--bottom hint--rounded"
-           aria-label=GitHub
+           aria-label=微博
            target="_blank"
         >
-          <i class="iconfont icon-github-fill" aria-hidden="true"></i>
-          
-        </a>
-      
-        
-        
-        
-        <a href=https://douban.com class="
-           hint--bottom hint--rounded"
-           aria-label=豆瓣
-           target="_blank"
-        >
-          <i class="iconfont icon-douban-fill" aria-hidden="true"></i>
+          <i class="iconfont icon-weibo-fill" aria-hidden="true"></i>
           
         </a>
       
@@ -228,9 +228,9 @@
            
            target="_self"
         >
-          <i class="iconfont icon-wechat-fill" aria-hidden="true"></i>
+          <i class="iconfont icon-mail" aria-hidden="true"></i>
           
-            <img class="qr-img" src="/img/favicon.png" srcset="/img/loading.gif" lazyload alt="qrcode" />
+            <img class="qr-img" src="/image/mail.jpg" srcset="/img/loading.gif" lazyload alt="qrcode" />
           
         </a>
       
